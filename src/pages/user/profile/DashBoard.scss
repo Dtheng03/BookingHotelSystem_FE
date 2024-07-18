@@ -1,0 +1,40 @@
+.dashboard {
+  margin: 60px auto;
+  width: 90%;
+
+  .dashboard-title {
+    padding: 40px 0;
+    font-family: var(--font-title);
+    font-size: xx-large;
+    text-align: center;
+  }
+
+  .dashboard-content {
+    display: flex;
+    gap: 40px;
+
+    .dashboard-content-sider {
+      padding: 12px;
+      height: fit-content;
+      border-radius: 12px;
+      box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+
+      .dashboard-content-sider-menu {
+        border: none;
+
+        .dashboard-content-sider-menu-item {
+          height: 40px;
+          font-size: medium;
+        }
+      }
+    }
+
+    .dashboard-content-main {
+      flex: 1;
+      padding: 12px;
+      border-radius: 12px;
+      box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+      background-color: white;
+    }
+  }
+}

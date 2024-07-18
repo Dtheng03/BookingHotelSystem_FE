@@ -1,0 +1,54 @@
+.step3-wrapper {
+  margin: 40px 10%;
+  padding: 40px 20px;
+  width: 80%;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 12px;
+  text-align: center;
+
+  .title {
+    margin: 0 0 16px 0;
+    color: black;
+    font-size: 28px;
+    font-family: var(--font-title);
+  }
+
+  .thank-you {
+    margin: 0 0 24px 0;
+    color: gray;
+    font-size: 22px;
+  }
+
+  .note {
+    color: gray;
+    font-size: 18px;
+  }
+
+  .back-btn {
+    display: block;
+    margin: 32px auto 0;
+    padding: 12px;
+    width: 280px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    border: 1px solid var(--blue-main-color);
+    background-color: var(--blue-main-color);
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+
+    &:hover {
+      transform: scale(1.02);
+    }
+
+    &:disabled {
+      transform: none;
+      opacity: 0.8;
+      cursor: not-allowed;
+    }
+  }
+}

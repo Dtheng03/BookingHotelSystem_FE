@@ -1,0 +1,247 @@
+.wrapper-room-detail-page {
+  padding: 100px 10%;
+  width: 100%;
+  font-family: var(--font-content);
+  background-color: white;
+
+  .container {
+    .heading {
+      margin: 0 0 20px;
+
+      .name {
+        font-size: xx-large;
+      }
+
+      .feedback {
+        margin: 8px 0 0 0;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+
+        .rate {
+          font-size: 14px;
+        }
+
+        .review {
+          color: gray;
+        }
+      }
+    }
+
+    .overview {
+      margin: 0 0 40px 0;
+      display: flex;
+      gap: 80px;
+
+      .item {
+        color: gray;
+        font-size: larger;
+      }
+    }
+
+    .info {
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+      gap: 40px;
+      border-bottom: 1px solid gray;
+
+      .details {
+        width: 70%;
+        color: gray;
+
+        .price {
+          padding: 0 0 40px 0;
+          border-bottom: 1px solid gray;
+
+          .from {
+            color: black;
+            font-size: x-large;
+          }
+
+          .per {
+            font-size: large;
+          }
+        }
+
+        .description {
+          padding: 40px 0;
+          border-bottom: 1px solid gray;
+          font-size: larger;
+          line-height: 32px;
+          text-align: justify;
+        }
+
+        .amenities {
+          padding: 40px 0;
+
+          .section {
+            .title {
+              padding: 0 0 40px;
+              color: black;
+              font-size: x-large;
+            }
+
+            .list {
+              display: flex;
+              flex-wrap: wrap;
+              gap: 40px;
+
+              .item {
+                display: flex;
+                align-items: center;
+                gap: 8px;
+                padding: 20px;
+                width: calc(30% - 20px);
+                min-width: 200px;
+                border: 1px solid gray;
+                border-radius: 8px;
+                font-size: medium;
+              }
+            }
+          }
+        }
+      }
+
+      .booking {
+        position: sticky;
+        top: 100px;
+        margin: 0 0 20px;
+        width: 280px;
+        height: fit-content;
+      }
+    }
+
+    .more-rooms {
+      padding: 80px 0;
+      border-bottom: 1px solid gray;
+      text-align: right;
+
+      .title {
+        margin: 0 0 8px;
+        color: black;
+        font-size: x-large;
+      }
+
+      .description {
+        margin: 0 0 20px;
+        font-size: large;
+      }
+
+      .see-more {
+        padding: 16px 20px;
+        border: 1px solid var(--blue-main-color);
+        background-color: var(--blue-main-color);
+        color: white;
+        border-radius: 50px;
+        font-weight: bolder;
+        font-size: medium;
+        transition: all ease-in-out 0.2s;
+        cursor: pointer;
+
+        &:hover {
+          transform: scale(1.02);
+        }
+      }
+    }
+
+    .feedback {
+      padding: 0 0 20px 0;
+      border-bottom: 1px solid gray;
+
+      .total {
+        padding: 20px 0 20px 0;
+        margin: 0 0 40px 0;
+        border-bottom: 1px solid gray;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .review {
+          .count {
+            margin: 0 25px 0 0;
+            font-size: 20px;
+            font-weight: bold;
+          }
+          .rate {
+            color: black;
+          }
+        }
+
+        .sort {
+          .title {
+            margin: 0 0 0 15px;
+            font-size: 15px;
+            color: black;
+            font-weight: bold;
+          }
+
+          .btn {
+            margin: 0 0 0 15px;
+            background-color: transparent;
+            border: none;
+            outline: none;
+            font-size: 15px;
+            color: black;
+            cursor: pointer;
+          }
+        }
+      }
+
+      .list {
+        .item {
+          margin: 0 0 40px 0;
+          display: flex;
+          align-items: center;
+
+          .user {
+            .avatar {
+              margin: 0 40px 0 0;
+            }
+
+            .name {
+              margin: 0 60px 0 0;
+              font-size: 20px;
+              font-weight: bold;
+            }
+          }
+
+          .review {
+            .content {
+              margin: 0 0 20px 0;
+              color: #8c8c8c;
+              font-size: 17px;
+            }
+
+            .rate {
+              margin: 0 0 8px 0;
+              color: black;
+              font-size: 16px;
+            }
+
+            .date {
+              font-size: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .back-home {
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 1px solid var(--blue-main-color);
+    background-color: var(--blue-main-color);
+    color: white;
+    font-weight: bold;
+    transition: all ease-in-out 0.2s;
+
+    &:hover {
+      border: 1px solid var(--blue-main-color);
+      background-color: white;
+      color: var(--blue-main-color);
+    }
+  }
+}

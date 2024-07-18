@@ -1,0 +1,32 @@
+#hotels-section {
+  padding: 100px 10%;
+  background-color: white;
+  font-family: var(--font-content);
+
+  .title {
+    text-align: center;
+    font-family: var(--font-title);
+  }
+
+  .list-rooms {
+    margin: 60px 0;
+    display: flex;
+    justify-content: flex-start;
+    gap: 32px;
+    overflow: auto;
+  }
+
+  .more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .link {
+      color: black;
+
+      &:hover {
+        color: var(--blue-main-color);
+      }
+    }
+  }
+}

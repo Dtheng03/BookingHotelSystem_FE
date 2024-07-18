@@ -1,0 +1,23 @@
+.admin-manage-hotels-wrapper {
+  .title {
+    margin: 0 0 16px 0;
+  }
+}
+
+.action-item {
+  display: block;
+  margin: 4px 0;
+  width: 120px;
+
+  .link {
+    margin-left: 8px;
+  }
+}
+
+.approved {
+  color: green;
+}
+
+.rejected {
+  color: red;
+}
